@@ -13,13 +13,16 @@ We propose the creation of a platform that would combine the performance ability
 It is expected that this platform would also encourage collaboration between artists. Once the system is built, it would be trivial to create a multi-performer mode, so that more than one artist could have input at a given time. By making the system opensource, it is expected that the collaborative nature of the live coding scene would encourage other individuals to improve and create more modes - perhaps allowing for competitive "laptop battles" happening online for thousands to witness, enjoy and learn from.
 
 ## Research Questions
-* Examining the effect of a freely accessible, online live coding performance platform would have on the nature of livecoding.
-* How does the replayability and transparency of a live coding piece help lower the high entry barrier to live coding. Can an online platform help others learn how to livecode more effectively?
-* Are there any common patterns on live coding performances that can be identified? Are there different *schools* or *styles* that can be quantitatively identifed? Could this online platform help create these styles?
+* Creating a technique to serialise, store and broadcast livecoding performances to an audience as they are performed, storing them on a server and executing them locally as they are received.
+* How would the replayability and transparency of a live coding piece help lower the high entry barrier to live coding. Can an online platform help others learn how to livecode more effectively?
+* Are there any common patterns on live coding performances that can be identified? Are there different *schools* or *styles* that can be quantitatively identifed? Could this online platform help create and spread these styles?
 
 ## Process
-Create an online platform for live coding, marrying currently existing browser-based live coding libraries with a framework that allows performer->audience interaction.
-Provide a way for audiences to score and share the performances,
+There are currently several open-source web live coding environments  which a great number of artists are already familiar with. Leveraging these systems, the platform would integrate a websockets system to connect several instances of these livecoding environment, in either *performer* or *audience* form.
+
+The server orchestrating the performance, relaying the keystrokes and code changes to the all of the clients, would also be in charge of storing these, and on demand, allowing for retrieval at any point of the piece by a client, usually by calling on a known url route.
+
+One of the major parts of this platform would be the creation of a format that efficiently captures the ma
 
 ## References
 
