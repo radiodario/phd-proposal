@@ -18,11 +18,11 @@ It is expected that this platform would also encourage collaboration between art
 * Are there any common patterns on live coding performances that can be identified? Are there different *schools* or *styles* that can be quantitatively identifed? Could this online platform help create and spread these styles?
 
 ## Process
-There are currently several open-source web live coding environments  which a great number of artists are already familiar with. Leveraging these systems, the platform would integrate a websockets system to connect several instances of these livecoding environment, in either *performer* or *audience* form.
+There are currently several open-source web live coding environments  which a great number of artists are already familiar with. Leveraging these systems, the platform would integrate a websockets system to connect several instances of these livecoding environments, in either *performer* or *audience* form.
 
-The server orchestrating the performance, relaying the keystrokes and code changes to the all of the clients, would also be in charge of storing these, and on demand, allowing for retrieval at any point of the piece by a client, usually by calling on a known url route.
+The server orchestrating the performance, relaying the keystrokes and code changes to the all of the clients, would also be in charge of storing these; and on demand, it would allow for retrieval of the piece by a client at any point, usually by calling on a known url route.
 
-One of the major parts of this platform would be the creation of a format that efficiently captures the ma
+One of the major hurdles to overcome in order for this platform to work would be the creation of a format that efficiently captures the actions of the performer, while remaining lightweight.
 
 ## References
 
